@@ -1,35 +1,35 @@
 {
   "Title": "NFL Stats",
-  "Date": "December 12, 2015",
-  "Time": "9:25 P.M.",
+  "Date": "December 18, 2015",
+  "Time": "6:42 P.M.",
   "Category": [
     {
       "CategoryTitle": "Passing Yards",
       "Players": [
+        {
+          "Name": "Tom Brady",
+          "Team": "New England Patriots",
+          "qty": 4138
+        },
         {
           "Name": "Carson Palmer",
           "Team": "Arizona Cardinals",
           "qty": 4003
         },
         {
-          "Name": "Tom Brady",
-          "Team": "New England Patriots",
-          "qty": 3912
-        },
-        {
           "Name": "Philip Rivers",
           "Team": "San Diego Chargers",
-          "qty": 3713
+          "qty": 3976
         },
         {
           "Name": "Drew Brees",
           "Team": "New Orleans Saints",
-          "qty": 3482
+          "qty": 3794
         },
         {
           "Name": "Matt Ryan",
           "Team": "Atlanta Falcons",
-          "qty": 3481
+          "qty": 3705
         }
       ]
     },
@@ -39,27 +39,27 @@
         {
           "Name": "D'Qwell Jackson",
           "Team": "Indianapolis Colts",
-          "qty": 122
-        },
-        {
-          "Name": "NaVorro Bowman",
-          "Team": "San Francisco 49ers",
-          "qty": 119
-        },
-        {
-          "Name": "Telvin Smith",
-          "Team": "Jacksonville Jaguars",
-          "qty": 113
-        },
-        {
-          "Name": "Reshad Jones",
-          "Team": "Miami Dolphins",
-          "qty": 107
+          "qty": 129
         },
         {
           "Name": "Lavonte David",
           "Team": "Tampa Bay Buccaneers",
-          "qty": 105
+          "qty": 126
+        },
+        {
+          "Name": "NaVorro Bowman",
+          "Team": "San Francisco 49'ers",
+          "qty": 124
+        },
+        {
+          "Name": "Telvin Smith",
+          "Team": "Jacksonville Jaguars",
+          "qty": 122
+        },
+        {
+          "Name": "Reshad Jones",
+          "Team": "Miami Dolphins",
+          "qty": 117
         }
       ]
     }
