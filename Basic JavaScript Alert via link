@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+  <head>
+    <title>JavaScript Alert</title>
+    <script>
+      function alertFunction() {
+        alert("Hello there!"); 
+      }
+    </script>
+  </head>
+  <body>
+    <h1>JavaScript Alert</h1>
+    <p><a href="javascript:void(0);" onclick="alertFunction()">Click here to see a JavaScript alert pop up</a></p>
+    
+  </body>
+</html>
