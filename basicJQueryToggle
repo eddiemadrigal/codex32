@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Basic jQuery Toggle</title>
+  <style>
+    body {
+      font-family: arial, sans-serif;
+    }
+    
+    .linkFormat {
+      font-size: 10px;
+      color: blue;
+      text-decoration: underline;
+    }
+    
+    #AL-Details {
+      display: none;
+    }
+    
+    #AK-Details {
+      display: none;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <p>A couple of US states</p>
+
+  <ol>
+    <li>Alabama - <span id="AL-ShowHide" class="linkFormat">[Show/Hide]</span>
+      <ul id="AL-Details">
+        <li>State Abbreviation: AL</li>
+        <li>Statehood: December 14, 1819</li>
+        <li>Capital: Montgomery</li>
+      </ul>
+    </li>
+    <li>Alaska - <span id="AK-ShowHide" class="linkFormat">[Show/Hide]</span>
+      <ul id="AK-Details">
+        <li>State Abbreviation: AK</li>
+        <li>Statehood: January 3, 1959</li>
+        <li>Capital: Juneau</li>
+      </ul>
+    </li>
+  </ol>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $("#AL-ShowHide").click(function() {
+        $("#AL-Details").toggle();
+      });
+      
+      $("#AL-ShowHide").mouseover(function() {
+        $("#AL-ShowHide").css("cursor", "pointer");
+      });
+      
+      $("#AK-ShowHide").click(function() {
+        $("#AK-Details").toggle();
+      });
+      
+      $("#AK-ShowHide").mouseover(function() {
+        $("#AK-ShowHide").css("cursor", "pointer");
+      });
+    });
+
+  </script>
+</body>
+
+</html>
