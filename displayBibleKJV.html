@@ -1,0 +1,26 @@
+<!docytpe html>
+<html ng-app="myApp">
+
+<head>
+  <title>King James Version of the Bible</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.js"></script>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body ng-controller="myController">
+  <h2>King James Version of the Bible</h2>
+    <ul>
+      <li ng-repeat="titles in Bible">{{ titles.Title }}
+        <ul>
+          <li ng-repeat="chapters in titles.Chapters">Chapter {{ chapters.Chapter }}
+            <ol>
+              <li ng-repeat="verses in chapters.Verses">{{ verses.Verse }}</li>
+            </ol>
+          </li>
+        </ul>
+      </li>
+    </ul>
+</body>
+
+</html>
